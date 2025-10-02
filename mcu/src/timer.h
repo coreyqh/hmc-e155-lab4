@@ -2,6 +2,7 @@
 #define TIMER_H_INCLUDED
 
 #include <stdint.h>
+#include "RCC.H"
 
 #define TIM15_BASE (0x40014000UL) 
 

@@ -32,5 +32,5 @@ void gpioInit() {
     // pin mode setting, etc
     pinMode(FUR_ELISE_PIN, GPIO_INPUT);
     pinMode(STONE_TOWER_PIN, GPIO_INPUT);
-    // TODO: SPECIAL FUNCTION FOR PWM PIN
+    pinmode(PWM_PIN, GPIO_ALT);
 }

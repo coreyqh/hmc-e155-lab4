@@ -1,8 +1,8 @@
 // STM32L432KC_RCC.h
 // Header for RCC functions
 
-#ifndef STM32L4_RCC_H
-#define STM32L4_RCC_H
+#ifndef RCC_H_INCLUDED
+#define RCC_H_INCLUDED
 
 #include <stdint.h>
 

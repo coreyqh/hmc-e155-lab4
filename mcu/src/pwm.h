@@ -1,7 +1,11 @@
 #ifndef PWM_H_INCLUDED
 #define PWM_H_INCLUDED
 
-// some memory map stuff
+#include <stdint.h>
+#include "timer.h"
+#include "RCC.h"
+
+#define PWM_PIN 
 
 void pwmInit();
 void setPitch(uint32_t pitch);
