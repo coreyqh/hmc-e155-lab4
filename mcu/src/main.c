@@ -1,3 +1,8 @@
+// main.c
+// chickson@hmc.edu
+// 10/1/2025
+// main program to play fur elise and stone tower from an mcu
+
 
 #include "lab4.h"
 

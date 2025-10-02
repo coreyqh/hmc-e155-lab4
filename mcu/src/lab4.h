@@ -1,3 +1,8 @@
+// lab4.h
+// chickson@hmc.edu
+// 10/1/2025
+// header file for high level helper functions for playnig music the an mcu
+
 #ifndef LAB4_H_INCLUDED
 #define LAB4_H_INCLUDED
 

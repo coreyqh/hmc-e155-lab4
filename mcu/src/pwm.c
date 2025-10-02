@@ -1,10 +1,12 @@
+// pwm.c
+// chickson@hmc.edu
+// 10/1/2025
+// a library of pwm drivers for stm 32
+
 #include <stdint.h>
 #include "pwm.h"
 #include "timer.h"
 #include "GPIO.h"
-
-
-
 
 void pwmInit() {
     // enable clock

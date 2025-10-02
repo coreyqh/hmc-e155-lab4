@@ -1,3 +1,8 @@
+// pwm.h
+// chickson@hmc.edu
+// 10/1/2025
+// header file for pwm drivers
+
 #ifndef PWM_H_INCLUDED
 #define PWM_H_INCLUDED
 

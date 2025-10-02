@@ -1,3 +1,7 @@
+// lab4.c
+// chickson@hmc.edu
+// 10/1/2025
+// library of helper function for playing music with the e155 mcu
 
 #include <stdint.h>
 #include "lab4.h"

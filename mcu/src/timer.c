@@ -1,3 +1,8 @@
+// timer.c
+// chickson@hmc.edu
+// 10/1/2025
+// a library of real-time accurate delay timers for stm32
+
 #include <stdint.h>
 #include "timer.h"
 

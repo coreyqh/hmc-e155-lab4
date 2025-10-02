@@ -1,3 +1,8 @@
+// timer.h
+// chickson@hmc.edu
+// 10/1/2025
+// header file for timer library for stm32
+
 #ifndef TIMER_H_INCLUDED
 #define TIMER_H_INCLUDED
 
