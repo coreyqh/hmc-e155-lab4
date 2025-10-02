@@ -1,7 +1,7 @@
 // STM32L432KC_RCC.c
 // Source code for RCC functions
 
-#include "STM32L432KC_RCC.h"
+#include "RCC.h"
 
 void configurePLL() {
     // Set clock to 80 MHz

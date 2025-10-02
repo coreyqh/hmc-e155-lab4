@@ -10,14 +10,14 @@ void waitForMS(uint32_t dur) {
         TIM15->TIM15_CNT &= 0xFFFF0000UL; // reset timer
 
         // until overfloow event, do nothing
-        while (TIM15->TIM15_CNT >> 31 & 1 == 0) {}; 
+        while ((TIM15->TIM15_SR & 1) == 0) {}; 
     }
 }
 
 
 void timerInit() {
     // enable clock
-    RCC->APB2ENR |= (1 << 17);
+    RCC->APB2ENR |= (1 << 16);
     // enable counter
     TIM15->TIM15_CR1 |= (1 << 0);
 

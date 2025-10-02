@@ -1,7 +1,7 @@
 // STM32L432KC_GPIO.c
 // Source code for GPIO functions
 
-#include "STM32L432KC_GPIO.h"
+#include "GPIO.h"
 
 void pinMode(int pin, int function) {
     switch(function) {

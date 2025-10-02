@@ -12,12 +12,12 @@ void init() {
 }
 
 uint8_t readSongChoice() {
-    if (gpioRead(FUR_ELISE_PIN)   == GPIO_LOW) return 1;
-    if (gpioRead(STONE_TOWER_PIN) == GPIO_LOW) return 2;
+    if (digitalRead(FUR_ELISE_PIN)   == GPIO_HIGH) return 1;
+    if (digitalRead(STONE_TOWER_PIN) == GPIO_HIGH) return 2;
     return 0;
 }
 
-void playSong(uint32_t ** song, uint32_t len) {
+void playSong(const uint32_t song[][2], uint32_t len) {
     for (int i = 0; i < len; ++i) {
         playNote(song[i][0], song[i][1]);
     }
@@ -25,12 +25,12 @@ void playSong(uint32_t ** song, uint32_t len) {
 
 void playNote(uint32_t pitch, uint32_t dur) {
     setPitch(pitch);
-    waitforMS(dur);
+    waitForMS(dur);
 }
 
 void gpioInit() {
     // pin mode setting, etc
     pinMode(FUR_ELISE_PIN, GPIO_INPUT);
     pinMode(STONE_TOWER_PIN, GPIO_INPUT);
-    pinmode(PWM_PIN, GPIO_ALT);
+    pinMode(PWM_PIN, GPIO_ALT);
 }
