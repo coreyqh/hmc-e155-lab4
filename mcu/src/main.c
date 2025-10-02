@@ -140,6 +140,33 @@ const uint32_t stone_tower[][2] = {
 {D5,    QUARTER},
 {B4,    QUARTER},
 {C5,    WHOLE},
+
+{C5,	HALF},
+{E5,    HALF},
+{D5,    HALF+QUARTER},
+{B4,    QUARTER},
+
+{C5,    QUARTER},
+{E5,    EIGTH},
+{D5,    SIXTEENTH},
+{E5,    SIXTEENTH},
+{D5,    QUARTER},
+{C5,    QUARTER},
+{B4,    HALF},
+{G4,    HALF},
+
+{C5,	HALF},
+{E5,    HALF},
+{D5,    HALF+QUARTER},
+{B4,    QUARTER},
+
+{C5,    QUARTER},
+{E5,    EIGTH},
+{D5,    SIXTEENTH},
+{E5,    SIXTEENTH},
+{D5,    QUARTER},
+{B4,    QUARTER},
+{C5,    WHOLE},
 {  0,	0}};
 
 int main() {
