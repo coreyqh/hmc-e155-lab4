@@ -26,6 +26,8 @@ void setPitch(uint32_t pitch) {
     uint32_t psc;
     uint32_t arr;
 
+    if (!pitch) return;
+
     // math to calculate arr based on pitch 
     psc = 1;
     arr = 80000000 / pitch; // first guess
